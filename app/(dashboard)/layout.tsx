@@ -9,8 +9,8 @@ const links = [
 const DashboardLayout = ({ children }) => {
   return (
     <div className="h-screen w-screen relative">
-      <aside className="absolute w-[200px] top-0 left-0 h-full border-r border-black/10">
-        <div>Mood</div>
+      <aside className="absolute w-[200px] h-full border-r border-black/10 m-auto">
+        <h1 className="m-2 text-3xl">Mood</h1>
         <ul>
           {links.map((link) => (
             <li key={link.href} className="px-2 py-6 text-xl">
